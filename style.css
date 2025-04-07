@@ -1,0 +1,45 @@
+/* Apply styles to the entire body */
+body {
+    font-family: 'Arial', sans-serif; /* Change the font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header title using an ID */
+#page-title {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Style content sections using a class */
+.content-section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* style the image */
+.styled-image{
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+}
